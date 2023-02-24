@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style_cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <div class="container_form">
+
+        <h1>Formulário de Cadastro</h1>
+
+        <form class="form" action="#" method="post">
+            <div class="container">
+            <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="form_grupo">
+                <label for="nome" class="form_label">Nome</label>
+                <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="e-mail" class="form_label">Email</label>
+                <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="e-mail" class="form_label">número</label>
+                <input type="number" name="email" class="form_input" id="email" placeholder="(xx)xxxxx-xxxx" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="e-mail" class="form_label">senha</label>
+                <input type="password" name="email" class="form_input" id="email" placeholder="S3nh@123" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="e-mail" class="form_label">CNPJ</label>
+                <input type="number" name="email" class="form_input" id="email" placeholder="12.123.123/1234-56" required>
+            </div>
+
+            <div class="form_grupo">
+
+                <span class="legenda">Tipo de Empresa:</span>
+                
+                <div class="radio-btn">
+                    <input type="radio" class="form_new_input" id="masculino" name="sexo" value="Masculino" required="required">
+                    <label for="masculino" class="radio_label form_label"> <span class="radio_new_btn"></span>Empresa Privada</label>
+                </div>
+                
+                <div class="radio-btn">
+                    <input type="radio" class="form_new_input" id="feminino" name="sexo" value="Feminino" required="required">
+                    <label for="feminino" class="radio_label form_label"> <span class="radio_new_btn"></span>Empresa Pública</label>
+                </div>
+            </div>
+
+            </fieldset>
+
+
+            <fieldset>
+            <legend>Endereço</legend>
+            <div class="form_grupo">
+                <label for="e-mail" class="form_label">CEP</label>
+                <input type="number" name="email" class="form_input" id="email" placeholder="18765-123" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="nome" class="form_label">Rua</label>
+                <input type="text" name="nome" class="form_input" id="nome" placeholder="rua mateus de moraes tavares marchechi" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="e-mail" class="form_label">Nº</label>
+                <input type="text" name="email" class="form_input" id="email" placeholder="1234" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="nome" class="form_label">Bairro</label>
+                <input type="text" name="nome" class="form_input" id="nome" placeholder="Cohab" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="nome" class="form_label">Cidade</label>
+                <input type="text" name="nome" class="form_input" id="nome" placeholder="Salvador" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="nome" class="form_label">UF</label>
+                <input type="text" name="nome" class="form_input" id="nome" placeholder="SP" required>
+            </div>
+
+            </fieldset>
+
+        </div>
+       
+          
+                <div class="submit">
+
+                  <input type="hidden" name="acao" value="enviar">
+                  <button type="submit" name="Submit" class="submit_btn" >Registrar</button>
+
+                   
+                
+                </div>
+        </form>
+
+    </div><!--container_form-->
+
+</body>
+</html>
