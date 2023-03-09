@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    font-family: 'Lexend', sans-serif;
+    color: #4a804c;
+    display: inline-block;
+    margin: 5%;
+}
+.logo-img{
+    width: 100px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.login-link{
+    font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+/*banner principal*/
+.banner{
+   text-align: center;
+}
+.banner-principal{
+    width: 90%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+/*centro da pagina*/
+
+.col-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line-main{
+    text-align: justify;
+    margin: auto;
+    padding: 5%;
+    font-family: 'Lexend', sans-serif;
+}
+.line-main > h2{
+    margin-bottom: 4%;
+}
